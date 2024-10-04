@@ -91,6 +91,7 @@ nav{
 }
 
 .headline{
+    font-size: 22px;
     margin-bottom: 0px;
 }
 .subheadline{
@@ -119,7 +120,7 @@ label i.fa-location-dot{
 
 input{
 background-color: white;
-color:var(--main-bg-color);
+color:black;
 font-size: 1em;
 font-weight: bold;
 border: 1px solid var(--main-bg-color); 
@@ -154,6 +155,7 @@ button{
 
 .filter-item button.filter-button {
     background-color: white;
+    cursor: pointer;
     color: black;
     border: 2px solid var(--main-bg-color);
     border-radius: 25px;
