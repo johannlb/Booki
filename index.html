@@ -23,9 +23,9 @@
             <nav>
                 <img class="logobooki" src="images/logo/Booki.png" alt="Logo Booki">
                 <div class="header-links">
-                    <ul>
-                        <li><a class="lien-hebergements" href="#">Hébergements</a></li>
-                        <li><a class="lien-activites" href ="#">Activités</a></li>
+                    <ul class="header-ul">
+                        <li><a class="lien-hebergements" href="index.html#hebergements">Hébergements</a></li>
+                        <li><a class="lien-activites" href ="index.html#activity">Activités</a></li>
                     </ul>
                 </div>
             </nav>
@@ -37,7 +37,7 @@
 <!-- Section titre+paragraphe    -->
 
          <div>
-                <h2 class="headline">Trouvez votre hébergement pour des vacances de rêve</h2>
+                <h1 class="headline">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="subheadline">En plein centre-ville ou en pleine nature</p>
         </div>
 
@@ -51,7 +51,7 @@
                     <button disabled>Rechercher</button> 
                 </form>
          </div>
-        </br>
+        
 <!-- Filter    -->
         <div class="filter">
             <h3> Filtres </h3>
@@ -81,7 +81,7 @@
         </div>
 
         <div class="information">
-            <i class="fa-solid fa-circle-info"></i>
+            <img src="images/icon.svg"> 
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
@@ -89,6 +89,7 @@
         <div class="hebergements-and-populaires">
 
                 <section class="hebergements">
+                    <a name="hebergements"></a>
                     <div class="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -112,7 +113,8 @@
                                 <span class="sr-only">Note de 4 sur 5</span>
                             </div>
                         </div>
-                    </article>
+                        </article>
+                    </a>
 
                     <a href="#">
                         <article class="card">
@@ -132,6 +134,7 @@
                             </div>
                         </div>
                     </article>
+                    </a>
 
                     <a href="#">
                         <article class="card">
@@ -150,7 +153,9 @@
                                 <span class="sr-only">Note de 4 sur 5</span>
                             </div>
                         </div>
-                    </article>
+                        </article>
+                    </a>
+
 
                     <a href="#">
                         <article class="card">
@@ -170,6 +175,7 @@
                             </div>
                         </div>
                     </article>
+                    </a>
 
                     <a href="#">
                         <article class="card">
@@ -189,9 +195,10 @@
                             </div>
                         </div>
                     </article>
+                    </a>
                     
-                               <a href="#">
-            <article class="card">
+                    <a href="#">
+                    <article class="card">
                      <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre">
                     <div class="card-content">
                     <div class="card-txt">
@@ -207,11 +214,13 @@
                     <span class="sr-only">Note de 4 sur 5</span>
                 </div>
             </div>
+                 </article>
+                </a>
+                <a href="#" class="last-title-hebergement">Afficher plus</a>
+
         </div>
             <div>
-                <h2 class="last-title-hebergement">Afficher plus</h2>
             </div>
-        </article>
                                          
         </section>
 
@@ -281,9 +290,73 @@
                     </div>
                 </section>
             </div>
+
+<!-- Section Activités à Marseille    -->
+            <section class="activity">
+                <a name="activity"></a>
+                <div class="activity-title-section">
+                    <h2 class="section-title">Activités à Marseille</h2>
+                </div>
+                
+            <div class="activity-marseille">
+                    <a href="#">
+                        <article class="card-activity">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port">
+                                    <h3 class="activity-title">Vieux-Port</h3>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="card-activity">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de Pomègues">
+                                    <h3 class="activity-title">Fort de Pomègues</h3>
+                                
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="card-activity">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
+                                    <h3 class="activity-title">Parc national des Calanques</h3>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="card-activity">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
+                                    <h3 class="activity-title">Notre-Dame-de-la-Garde</h3>
+                            
+                        </article>
+                    </a>
+
+            </div>      
+            </section>
         </main>
-        <footer></footer>
-    </div>
+        <footer class="footer-container">      
+                <div class="footer-column">
+                    <h4 class="footer-title">À propos</h4>
+                    <ul class="footer-ul">
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href ="#">Conditions générales</a></li>
+                        <li><a href ="#">Données et confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                   <h4 class="footer-title"> Nos hébergements</h4> 
+                   <ul class="footer-ul">
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href ="#">Proposer votre hôtel</a></li>
+                   </ul>
+                </div>
+                <div class="footer-column">
+                   <h4 class="footer-title">Assistance</h4>
+                   <ul class="footer-ul">
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href ="#">Nous contacter</a></li>
+                   </ul>
+                </div>
+        </footer>
+    </div>        
 </body>
 
-</html
+</html>
